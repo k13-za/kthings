@@ -1,5 +1,5 @@
 {
-  "title": "ThingsBoard IoT Gateways",
+  "title": "Baofn IoT Gateways",
   "image": "tb-image;/api/images/system/gateway-dashboard.png",
   "mobileHide": false,
   "mobileOrder": 6,
@@ -10333,6 +10333,6 @@
       "dashboardCss": ""
     }
   },
-  "name": "ThingsBoard IoT Gateways",
+  "name": "Baofn IoT Gateways",
   "resources": null
 }

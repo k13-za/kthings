@@ -27,9 +27,9 @@
     <groupId>org.thingsboard.msa</groupId>
     <artifactId>vc-executor</artifactId>
 
-    <name>ThingsBoard Version Control Executor</name>
+    <name>Baofn Version Control Executor</name>
     <url>https://thingsboard.io</url>
-    <description>Project for ThingsBoard version control microservice</description>
+    <description>Project for Baofn version control microservice</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,7 @@
         <pkg.name>tb-vc-executor</pkg.name>
         <pkg.copyInstallScripts>false</pkg.copyInstallScripts>
         <pkg.win.dist>${project.build.directory}/windows</pkg.win.dist>
-        <pkg.implementationTitle>ThingsBoard Version Control Executor Service</pkg.implementationTitle>
+        <pkg.implementationTitle>Baofn Version Control Executor Service</pkg.implementationTitle>
         <pkg.mainClass>org.thingsboard.server.vc.ThingsboardVersionControlExecutorApplication</pkg.mainClass>
     </properties>
 

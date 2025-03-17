@@ -18,7 +18,7 @@ version: '3.0'
 
 services:
   # Redis sentinel
-  # The latest version of Redis compatible with ThingsBoard is 7.2
+  # The latest version of Redis compatible with Baofn is 7.2
   redis-master:
     image: 'bitnami/redis:7.2'
     volumes:
@@ -52,7 +52,7 @@ services:
       - redis-master
       - redis-slave
 
-  # ThingsBoard setup to use redis-sentinel
+  # Baofn setup to use redis-sentinel
   tb-core1:
     env_file:
       - cache-redis-sentinel.env

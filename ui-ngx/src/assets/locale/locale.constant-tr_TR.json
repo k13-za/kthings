@@ -2489,7 +2489,7 @@
     "tenant-required": "Tenant gerekli",
     "search": "Tenantları ara",
     "selected-tenants": "{ count, plural, =1 {1 tenant} other {# tenant} } seçildi",
-    "isolated-tb-rule-engine": "ThingsBoard soyutlanmış kural yönetimi konteynerda işlensin",
+    "isolated-tb-rule-engine": "Baofn soyutlanmış kural yönetimi konteynerda işlensin",
     "isolated-tb-rule-engine-details": "Her soyutlanmış tenant ayrı bir mikro servis gerektirir"
   },
   "tenant-profile": {

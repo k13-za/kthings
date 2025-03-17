@@ -23,7 +23,7 @@ import "queue.proto";
 
 package edge;
 
-// Interface exported by the ThingsBoard Edge Transport.
+// Interface exported by the Baofn Edge Transport.
 service EdgeRpcService {
 
   rpc handleMsgs(stream RequestMsg) returns (stream ResponseMsg) {}

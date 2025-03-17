@@ -27,9 +27,9 @@
     <artifactId>vc-executor-docker</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard Version Control Executor Microservice</name>
+    <name>Baofn Version Control Executor Microservice</name>
     <url>https://thingsboard.io</url>
-    <description>ThingsBoard Version Control Executor Microservice</description>
+    <description>Baofn Version Control Executor Microservice</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

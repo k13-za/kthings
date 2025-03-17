@@ -27,9 +27,9 @@
     <artifactId>edqs</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard Entity Data Query Microservice</name>
+    <name>Baofn Entity Data Query Microservice</name>
     <url>https://thingsboard.io</url>
-    <description>ThingsBoard Entity Data Query Microservice</description>
+    <description>Baofn Entity Data Query Microservice</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

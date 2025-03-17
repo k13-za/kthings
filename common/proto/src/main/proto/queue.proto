@@ -1598,7 +1598,7 @@ message VersionControlResponseMsg {
  * Main messages;
  */
 
-/* Request from Transport Service to ThingsBoard Core Service */
+/* Request from Transport Service to Baofn Core Service */
 message TransportApiRequestMsg {
   ValidateDeviceTokenRequestMsg validateTokenRequestMsg = 1;
   ValidateDeviceX509CertRequestMsg validateX509CertRequestMsg = 2;
@@ -1617,7 +1617,7 @@ message TransportApiRequestMsg {
   ValidateOrCreateDeviceX509CertRequestMsg validateOrCreateX509CertRequestMsg = 15;
 }
 
-/* Response from ThingsBoard Core Service to Transport Service */
+/* Response from Baofn Core Service to Transport Service */
 message TransportApiResponseMsg {
   ValidateDeviceCredentialsResponseMsg validateCredResponseMsg = 1;
   GetOrCreateDeviceFromGatewayResponseMsg getOrCreateDeviceResponseMsg = 2;
@@ -1632,7 +1632,7 @@ message TransportApiResponseMsg {
   repeated GetQueueRoutingInfoResponseMsg getQueueRoutingInfoResponseMsgs = 11;
 }
 
-/* Messages that are handled by ThingsBoard Core Service */
+/* Messages that are handled by Baofn Core Service */
 message ToCoreMsg {
   TransportToDeviceActorMsg toDeviceActorMsg = 1;
   DeviceStateServiceMsgProto deviceStateServiceMsg = 2;
@@ -1650,7 +1650,7 @@ message ToCoreMsg {
   DeviceInactivityTimeoutUpdateProto deviceInactivityTimeoutUpdateMsg = 53;
 }
 
-/* High priority messages with low latency are handled by ThingsBoard Core Service separately */
+/* High priority messages with low latency are handled by Baofn Core Service separately */
 /* Please, adjust the TbCoreConsumerStats when modifying the ToCoreNotificationMsg */
 message ToCoreNotificationMsg {
   LocalSubscriptionServiceMsgProto toLocalSubscriptionServiceMsg = 1;
@@ -1670,7 +1670,7 @@ message ToCoreNotificationMsg {
   RestApiCallResponseMsgProto restApiCallResponseMsg = 50;
 }
 
-/* Messages to Edge queue that are handled by ThingsBoard Core Service */
+/* Messages to Edge queue that are handled by Baofn Core Service */
 message ToEdgeMsg {
   EdgeNotificationMsgProto edgeNotificationMsg = 1;
 }
@@ -1698,7 +1698,7 @@ message ToCalculatedFieldNotificationMsg {
   CalculatedFieldLinkedTelemetryMsgProto linkedTelemetryMsg = 2;
 }
 
-/* Messages that are handled by ThingsBoard RuleEngine Service */
+/* Messages that are handled by Baofn RuleEngine Service */
 message ToRuleEngineMsg {
   int64 tenantIdMSB = 1;
   int64 tenantIdLSB = 2;
@@ -1714,7 +1714,7 @@ message ToRuleEngineNotificationMsg {
   ComponentLifecycleMsgProto componentLifecycle = 5;
 }
 
-/* Messages that are handled by ThingsBoard Transport Service */
+/* Messages that are handled by Baofn Transport Service */
 message ToTransportMsg {
   int64 sessionIdMSB = 1;
   int64 sessionIdLSB = 2;

@@ -27,7 +27,7 @@
     <artifactId>edqs</artifactId>
     <packaging>jar</packaging>
 
-    <name>ThingsBoard EDQS API</name>
+    <name>Baofn EDQS API</name>
     <url>https://thingsboard.io</url>
 
     <properties>
@@ -89,7 +89,7 @@
     <distributionManagement>
         <repository>
             <id>thingsboard-repo-deploy</id>
-            <name>ThingsBoard Repo Deployment</name>
+            <name>Baofn Repo Deployment</name>
             <url>https://repo.thingsboard.io/artifactory/libs-release-public</url>
         </repository>
     </distributionManagement>

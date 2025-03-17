@@ -46,7 +46,7 @@ jobs:
 
       - name: Set Git user information
         run: |
-          git config user.name "ThingsBoard Bot"
+          git config user.name "Baofn Bot"
           git config user.email "noreply@thingsboard.io"
 
       - name: Check and push changes

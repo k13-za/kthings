@@ -2,7 +2,7 @@
   "name": "thingsboard-js-executor",
   "private": true,
   "version": "4.0.0",
-  "description": "ThingsBoard JavaScript Executor Microservice",
+  "description": "Baofn JavaScript Executor Microservice",
   "main": "server.ts",
   "bin": "server.js",
   "scripts": {

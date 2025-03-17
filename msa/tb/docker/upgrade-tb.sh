@@ -23,7 +23,7 @@ configfile=${pkg.name}.conf
 
 source "${CONF_FOLDER}/${configfile}"
 
-echo "Starting ThingsBoard upgrade ..."
+echo "Starting Baofn upgrade ..."
 
 java -cp ${jarfile} $JAVA_OPTS -Dloader.main=org.thingsboard.server.ThingsboardInstallApplication \
                 -Dspring.jpa.hibernate.ddl-auto=none \

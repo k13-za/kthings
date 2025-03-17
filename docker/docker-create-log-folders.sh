@@ -16,5 +16,5 @@
 #
 
 set -e
-source compose-utils.sh
+source ./compose-utils.sh
 checkFolders --create "$@"

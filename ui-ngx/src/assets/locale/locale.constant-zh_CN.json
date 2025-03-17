@@ -6926,7 +6926,7 @@
         },
         "functions": {
             "title": "功能",
-            "pe-feature-tooltip": "仅适用于ThingsBoard专业版",
+            "pe-feature-tooltip": "仅适用于Baofn专业版",
             "switch-to-pe": "切换专业版",
             "alarms": "告警",
             "dashboards": "仪表盘",

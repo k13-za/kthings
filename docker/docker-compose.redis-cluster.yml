@@ -18,7 +18,7 @@ version: '3.0'
 
 services:
 # Redis cluster
-# The latest version of Redis compatible with ThingsBoard is 7.2
+# The latest version of Redis compatible with Baofn is 7.2
   redis-node-0:
     image: bitnami/redis-cluster:7.2
     volumes:
@@ -89,7 +89,7 @@ services:
       - 'REDIS_CLUSTER_REPLICAS=1'
       - 'REDIS_CLUSTER_CREATOR=yes'
 
-# ThingsBoard setup to use redis-cluster
+# Baofn setup to use redis-cluster
   tb-core1:
     env_file:
       - cache-redis-cluster.env

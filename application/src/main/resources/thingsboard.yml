@@ -276,7 +276,7 @@ cassandra:
 
   # Cassandra cluster connection socket parameters #
   socket:
-    # Sets the timeout, in milliseconds, of a native connection from ThingsBoard to Cassandra. The default value is 5000
+    # Sets the timeout, in milliseconds, of a native connection from Baofn to Cassandra. The default value is 5000
     connect_timeout: "${CASSANDRA_SOCKET_TIMEOUT:5000}"
     # Timeout before closing the connection. Value set in milliseconds
     read_timeout: "${CASSANDRA_SOCKET_READ_TIMEOUT:20000}"
@@ -1485,12 +1485,12 @@ swagger:
   # Nonsecurity API path match pattern of swagger UI links
   non_security_path_regex: "${SWAGGER_NON_SECURITY_PATH_REGEX:/api/(?:noauth|v1)/.*}"
   # The title on the API doc UI page
-  title: "${SWAGGER_TITLE:ThingsBoard REST API}"
+  title: "${SWAGGER_TITLE:Baofn REST API}"
   # The description on the API doc UI page
-  description: "${SWAGGER_DESCRIPTION: ThingsBoard open-source IoT platform REST API documentation.}"
+  description: "${SWAGGER_DESCRIPTION: Baofn open-source IoT platform REST API documentation.}"
   contact:
     # The contact name on the API doc UI page
-    name: "${SWAGGER_CONTACT_NAME:ThingsBoard team}"
+    name: "${SWAGGER_CONTACT_NAME:Baofn team}"
     # The contact URL on the API doc UI page
     url: "${SWAGGER_CONTACT_URL:https://thingsboard.io}"
     # The contact email on the API doc UI page

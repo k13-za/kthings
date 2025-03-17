@@ -40,7 +40,7 @@
         <pkg.name>tb-lwm2m-transport</pkg.name>
         <pkg.copyInstallScripts>false</pkg.copyInstallScripts>
         <pkg.win.dist>${project.build.directory}/windows</pkg.win.dist>
-        <pkg.implementationTitle>ThingsBoard LwM2m Transport Service</pkg.implementationTitle>
+        <pkg.implementationTitle>Baofn LwM2m Transport Service</pkg.implementationTitle>
         <pkg.mainClass>org.thingsboard.server.lwm2m.ThingsboardLwm2mTransportApplication</pkg.mainClass>
     </properties>
 
