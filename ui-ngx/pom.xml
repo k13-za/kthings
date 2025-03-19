@@ -28,7 +28,7 @@
     <packaging>jar</packaging>
 
     <name>Baofn Server UI</name>
-    <url>https://thingsboard.io</url>
+    <url>https://baofn.co.za</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
